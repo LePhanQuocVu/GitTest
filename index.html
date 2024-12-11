@@ -7,26 +7,32 @@
     <!--
     Ở local
 
+    // Khỏi tạo ở local vào commit vào local
     git init: khởi tạo một repository ở local
     git add . : thêm tất cả các file thay đổi vào để commint
     git commit "": commit lên local repository
     
-    // add remote
-    git remote add orgin <link>
+    // PUSH lên remote
+    1. Add remote: git remote add orgin <link>
 
     git push -u orgin  <Front-end>: để push code lên nhánh trên remote repository
 
     git pull: để clone code từ trên remote về máy mình
 
-    // CHUYỂN NHÁNH
-    - git checkout <Tên nhánh>
-    - git checkout -b <tên nhánh>: Tạo một nhánh mới và checkout sang nhánh đó
-        git
-
     //PUSH  CODE LÊN REMOTE
     
     -git push origin <local_Branch>:<Remote_Branch>
+
+    // SET upstream cho nhánh Front-end 
+
     
+    // CHUYỂN NHÁNH ở local
+    - git checkout <Tên nhánh>
+    - git checkout -b <tên nhánh>: Tạo một nhánh mới và checkout sang nhánh đó
+        git
+    // XÓA FOLDER ON REMOTE KHI GIT IGNORE KO BỎ QUA FILE
+    - git rm -r --cached <folder_or_file> -> Sau đó commit lai
+
 
         -->
 </head>
